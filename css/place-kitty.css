@@ -42,3 +42,4 @@ img[alt="Kitty 5"] {
   top: 217px;
   left: 223px;
 }
+/*expected  Select the image with a class of kitty-1 */\n\n.kitty-1 {\n position: absolute;\n  z-index: 1;\n...n\nimg[alt=\"Kitty 5\"] {\n  position: absolute;\n  z-index: 3;\n  top: 217px;\n  left: 223px;\n}\n" to include "#basket img"*/
